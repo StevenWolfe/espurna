@@ -1982,14 +1982,8 @@
     #define RELAY1_TYPE         RELAY_TYPE_NORMAL
 
     // LEDs
-    #define LED1_PIN            1
+    #define LED1_PIN            13
     #define LED1_PIN_INVERSE    0
-    // #define LED1_PIN            0   // R - 8 rgb led ring
-    // #define LED1_PIN_INVERSE    0
-    // #define LED2_PIN            5   // G
-    // #define LED2_PIN_INVERSE    0
-    // #define LED3_PIN            2   // B
-    // #define LED3_PIN_INVERSE    0
 
 // -----------------------------------------------------------------------------
 // TONBUX XS-SSA06
