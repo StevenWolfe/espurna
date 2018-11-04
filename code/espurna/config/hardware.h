@@ -1973,8 +1973,8 @@
     #define DEVICE              "XSSSA01"
 
     // Buttons
-    // #define BUTTON1_PIN         13
-    // #define BUTTON1_MODE        BUTTON_PUSHBUTTON | BUTTON_DEFAULT_HIGH
+    #define BUTTON1_PIN         4
+    #define BUTTON1_MODE        BUTTON_PUSHBUTTON | BUTTON_DEFAULT_HIGH
     // #define BUTTON1_RELAY       1
 
     // Relays
