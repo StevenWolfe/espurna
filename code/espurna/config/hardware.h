@@ -61,6 +61,26 @@
 // Development boards
 // -----------------------------------------------------------------------------
 
+#elif defined(TONTON_OUTLET)
+
+    // Info
+    #define MANUFACTURER        "TONTON"
+    #define DEVICE              "OUTLET"
+
+    // Buttons
+    // #define BUTTON1_PIN         0
+    // #define BUTTON1_MODE        BUTTON_PUSHBUTTON | BUTTON_DEFAULT_HIGH
+    // #define BUTTON1_RELAY       1
+
+    // Hidden button will enter AP mode if dblclick and reset the device when long-long-clicked
+    // #define RELAY1_PIN          12
+    // #define RELAY1_TYPE         RELAY_TYPE_NORMAL
+
+    // Light
+    #define LED1_PIN            13
+    #define LED1_PIN_INVERSE    0
+
+
 #elif defined(NODEMCU_LOLIN)
 
     // Info
